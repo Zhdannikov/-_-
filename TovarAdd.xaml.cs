@@ -35,9 +35,16 @@ namespace Магизин_одежды
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Entities.Demo.Tovar.Add(t);
-            Entities.Demo.SaveChanges();
-            MessageBox.Show("Запись добавлена");
+            try
+            {
+                Entities.Demo.Tovar.Add(t);
+                Entities.Demo.SaveChanges();
+                MessageBox.Show("Запись добавлена");
+            }
+            catch
+            {
+                MessageBox.Show("Невозможно добавить данные", "Ошибка");
+            }
         }
     }
 }

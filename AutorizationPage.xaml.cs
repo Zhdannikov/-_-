@@ -24,7 +24,11 @@ namespace Магизин_одежды
         {
             InitializeComponent();
         }
-        
+        /// <summary>
+        /// Авторизация
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Vxod_Click(object sender, RoutedEventArgs e)
         {
             var login = Login.Text;
