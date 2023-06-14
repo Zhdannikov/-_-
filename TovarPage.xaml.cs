@@ -37,5 +37,10 @@ namespace Магизин_одежды
         {
             NavigationService.Content = new TovarAdd();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
+        }
     }
 }

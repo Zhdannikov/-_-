@@ -28,6 +28,7 @@
             </ListView.ItemTemplate>
         </ListView>
         <Button x:Name="Dob" Click="Dob_Click" Content="Добавить товар" HorizontalAlignment="Left" Margin="99,44,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button Click="Button_Click" Content="Выйти" HorizontalAlignment="Left" Margin="702,10,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Page>

@@ -13,7 +13,7 @@
         <TextBox x:Name="Login"  HorizontalAlignment="Left" Height="23" Margin="273,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203"/>
         <Label FontSize="27" Content="Авторизация" HorizontalAlignment="Left" Margin="285,77,0,0" VerticalAlignment="Top"/>
         <Button x:Name="Vxod" Content="Войти" HorizontalAlignment="Left" Height="26" Margin="344,268,0,0" VerticalAlignment="Top" Width="71" Click="Vxod_Click"/>
-        <Button Content="Войти как гость" HorizontalAlignment="Left" Height="20" Margin="601,382,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button Content="Войти как гость" HorizontalAlignment="Left" Height="20" Margin="576,344,0,0" VerticalAlignment="Top" Width="115"/>
 
     </Grid>
 </Page>

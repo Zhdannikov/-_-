@@ -33,6 +33,11 @@ namespace Магизин_одежды
             NavigationService.GoBack();
         }
 
+        /// <summary>
+        /// Добавление товара
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             try
