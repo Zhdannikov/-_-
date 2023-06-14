@@ -1,0 +1,26 @@
+﻿<Page x:Class="Магизин_одежды.TovarAdd"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Магизин_одежды"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TovarAdd">
+
+    <Grid Background="White">
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="364,68,0,0" TextWrapping="Wrap" Text="{Binding Naim_tovar}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="364,111,0,0" TextWrapping="Wrap" Text="{Binding Opisanie}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="364,153,0,0" TextWrapping="Wrap" Text="{Binding id_proizvoditel}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="364,195,0,0" TextWrapping="Wrap" Text="{Binding Chena}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.555,-5.236"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="364,239,0,0" TextWrapping="Wrap" Text="{Binding Skidka}" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить" Click="Button_Click_1" HorizontalAlignment="Left" Margin="271,302,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Назад" Click="Button_Click" HorizontalAlignment="Left" Margin="409,302,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Наименование" HorizontalAlignment="Left" Height="23" Margin="248,68,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Описание" HorizontalAlignment="Left" Height="23" Margin="248,111,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="id производителя" HorizontalAlignment="Left" Height="23" Margin="238,153,0,0" VerticalAlignment="Top" Width="108"/>
+        <Label Content="Цена" HorizontalAlignment="Left" Height="23" Margin="248,195,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Скидка" HorizontalAlignment="Left" Height="23" Margin="248,235,0,0" VerticalAlignment="Top" Width="98"/>
+
+    </Grid>
+</Page>

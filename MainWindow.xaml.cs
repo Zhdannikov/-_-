@@ -23,6 +23,7 @@ namespace Магизин_одежды
         public MainWindow()
         {
             InitializeComponent();
+            MyFrame.Content = new AutorizationPage();
         }
     }
 }

@@ -1,0 +1,33 @@
+﻿<Page x:Class="Магизин_одежды.TovarPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Магизин_одежды"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Tovar">
+
+    <Grid Background="White">
+        <ListView x:Name="L1" HorizontalAlignment="Left" Height="221" Margin="10,178,0,0" VerticalAlignment="Top" Width="780">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Height="211" Width="752">
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Naim_tovar}" Margin="111,16,520,172"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Opisanie}" Margin="111,55,521,133" Width="120" RenderTransformOrigin="0.807,1.015"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Proizvoditel.Proizvoditel1}" Width="120" Margin="111,94,521,94"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Chena}" Width="120" Margin="111,134,521,54" RenderTransformOrigin="0.428,-1.24"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Skidka}" Width="120" Margin="111,178,521,10"/>
+                        <Label Margin="10,16,646,172" Content="Наименование"/>
+                        <Label Margin="10,55,646,133" Content="Описание" RenderTransformOrigin="0.511,1.966"/>
+                        <Label Margin="10,94,646,94" Content="Производитель"/>
+                        <Label Margin="10,134,646,54" Content="Цена"/>
+                        <Label Margin="10,178,646,10" Content="Скидка"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="Dob" Click="Dob_Click" Content="Добавить товар" HorizontalAlignment="Left" Margin="99,44,0,0" VerticalAlignment="Top" Width="119"/>
+
+    </Grid>
+</Page>
